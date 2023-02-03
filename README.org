@@ -95,11 +95,11 @@ x=\sqrt{b}                              % even tables, figures
 # bold symbols are termianl tokens
 
 # ex: type t = int
-tydec —> *type* type-id = ty
+tydec —> type type-id = ty
 
 ty -> type-id
-    -> * *{* * tyfields *}*    (*{* and *}* are termianl symbols)
-    -> *array of* type-id
+    -> { tyfields }    ({ and } are termianl symbols)
+    -> array of type-id
 
 # declaration can derive type declaration, variable declarations and function declaration
 
