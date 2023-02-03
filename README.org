@@ -90,7 +90,7 @@ x=\sqrt{b}                              % even tables, figures
 
 * Test
 
-#+BEGIN_SRC text
+#+BEGIN_SRC text raw
 
 # bold symbols are termianl tokens
 
